@@ -396,12 +396,12 @@ contract SAFUUCATCOIN is IBEP20, Auth {
     uint256 public totalFeeBuy = 3; //Total Fee
     uint256 feeDenominatorBuy  = 100;
 
-    uint256 liquidityFeeSell    = 6;
-    uint256 reflectionFeeSell   = 6;
-    uint256 marketingFeeSell    = 8;
-    uint256 teamFeeSell         = 0;
+    uint256 liquidityFeeSell    = 4;
+    uint256 reflectionFeeSell   = 4;
+    uint256 marketingFeeSell    = 4;
+    uint256 teamFeeSell         = 4;
     uint256 giveawayFeeSell     = 0;
-    uint256 public totalFeeSell = 20; //Total Fee
+    uint256 public totalFeeSell = 16; //Total Fee
     uint256 feeDenominatorSell  = 100;
 
     address public autoLiquidityReceiver; 
