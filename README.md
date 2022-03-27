@@ -1,7 +1,7 @@
 # contract
 👑🔥 More Than Just a Coin 🔥👑
 
-📢Huge Fairlaunch 22 MARCH - 16:00 UTC
+📢Huge Fairlaunch 30 MARCH - 16:00 UTC
 
 🐱 New born from CATCOIN TO EARN SAFUU! 
 
