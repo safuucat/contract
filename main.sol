@@ -1,7 +1,7 @@
 /**
 Website : https://safuucat.com
 Twitter: https://twitter.com/safuucat
-Telegram: https://t.me/safuucatbsc
+Telegram: https://t.me/safuucat_portal
 */
 //SPDX-License-Identifier: MIT
 
@@ -373,7 +373,7 @@ contract SAFUUCATCOIN is IBEP20, Auth {
     uint256 public _maxTxAmount = ( _totalSupply * 4 )  / 200; //2
 
     //max wallet holding of 2%
-    uint256 public _maxWalletToken = ( _totalSupply * 2 ) / 100; //2
+    uint256 public _maxWalletToken = ( _totalSupply * 4 ) / 100; //4
 
     mapping (address => uint256) _balances;
     mapping (address => mapping (address => uint256)) _allowances;
@@ -384,24 +384,24 @@ contract SAFUUCATCOIN is IBEP20, Auth {
     mapping (address => bool) isDividendExempt;
 
     uint256 liquidityFee    = 4;
-    uint256 reflectionFee   = 2;
+    uint256 reflectionFee   = 4;
     uint256 public totalFee = 14; //Total Fee
     uint256 feeDenominator  = 100;
 
-    uint256 liquidityFeeBuy    = 4;
-    uint256 reflectionFeeBuy   = 2;
-    uint256 marketingFeeBuy    = 90;
+    uint256 liquidityFeeBuy    = 1;
+    uint256 reflectionFeeBuy   = 1;
+    uint256 marketingFeeBuy    = 1;
     uint256 teamFeeBuy         = 0;
     uint256 giveawayFeeBuy     = 0;
-    uint256 public totalFeeBuy = 14; //Total Fee
+    uint256 public totalFeeBuy = 3; //Total Fee
     uint256 feeDenominatorBuy  = 100;
 
-    uint256 liquidityFeeSell    = 4;
-    uint256 reflectionFeeSell   = 2;
-    uint256 marketingFeeSell    = 90;
+    uint256 liquidityFeeSell    = 6;
+    uint256 reflectionFeeSell   = 6;
+    uint256 marketingFeeSell    = 8;
     uint256 teamFeeSell         = 0;
     uint256 giveawayFeeSell     = 0;
-    uint256 public totalFeeSell = 14; //Total Fee
+    uint256 public totalFeeSell = 20; //Total Fee
     uint256 feeDenominatorSell  = 100;
 
     address public autoLiquidityReceiver; 
